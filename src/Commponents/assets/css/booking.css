@@ -1,0 +1,77 @@
+.booking-engine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background: linear-gradient(135deg, #2b44ac, #ff4500);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 100%;
+  /* margin: auto; */
+  margin-top:100px
+}
+
+.booking-engine h2 {
+  flex: 1;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.booking-engine .form-group {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.booking-engine label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.booking-engine input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.booking-engine input[type="date"],
+.booking-engine input[type="number"] {
+  background-color: #dbdfe3;
+}
+
+.booking-engine button {
+  flex: 1;
+  background-color: #cbacac;
+  color: #ff6347;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 20px;
+}
+
+.booking-engine button:hover {
+  background-color: #1770b4;
+  color: rgb(197, 187, 187);
+}
+
+.booking-engine button:focus {
+  outline: none;
+}
+
+.error-message {
+  color: #ffcccb;
+  background-color: #d9534f;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}

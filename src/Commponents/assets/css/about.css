@@ -1,0 +1,56 @@
+/* CSS for About Component */
+.About-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.About-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.About-container p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.About-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.About-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .About-container {
+    padding: 10px;
+  }
+
+  .About-container h2 {
+    font-size: 1.5em;
+  }
+
+  .About-container p {
+    font-size: 1em;
+  }
+
+  .About-container button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}

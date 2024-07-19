@@ -1,0 +1,28 @@
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-background {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hero-content {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.booking-section {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  max-width: 1100px;
+}
