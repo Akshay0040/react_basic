@@ -4,6 +4,7 @@ import Navbar from "../src/Commponents/pages/Navbar.jsx"
 import Hero from "../src/Commponents/pages/Hero.jsx"
 import About from "../src/Commponents/pages/About.jsx";
 import Booking from "../src/Commponents/pages/Booking.jsx";
+import Service from "../src/Commponents/pages/Service.jsx";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Navbar/>
             <Hero/>
             <About/>
+            <Service/>
             {/* <Booking/> */}
             </>
 
