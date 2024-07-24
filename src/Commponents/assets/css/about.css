@@ -1,56 +1,40 @@
-/* CSS for About Component */
+.About-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5; /* Optional: background color */
+}
+
 .About-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px;
+}
+
+.about-header {
+  font-size: 2.5em;
   text-align: center;
-  font-family: Arial, sans-serif;
-}
-
-.About-container h2 {
-  font-size: 2em;
+  color: #c72121; /* Optional: text color */
+  font-weight: bold;
+  text-transform: uppercase; 
   margin-bottom: 20px;
-  color: #333;
 }
 
-.About-container p {
-  font-size: 1.2em;
-  line-height: 1.5;
-  margin-bottom: 15px;
-  color: #666;
+.Description {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.About-container button {
-  padding: 10px 20px;
-  font-size: 1em;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.Image-section {
+  margin-left: 40px;
+  /* display: flex; */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px; /* Optional: spacing between images */
 }
 
-.About-container button:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  .About-container {
-    padding: 10px;
-  }
-
-  .About-container h2 {
-    font-size: 1.5em;
-  }
-
-  .About-container p {
-    font-size: 1em;
-  }
-
-  .About-container button {
-    padding: 8px 16px;
-    font-size: 0.9em;
-  }
+.Image-section img {
+  height: 500px;
+  border-radius: 8px; /* Optional: rounded corners for image */
 }
