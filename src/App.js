@@ -5,6 +5,10 @@ import Hero from "../src/Commponents/pages/Hero.jsx"
 import About from "../src/Commponents/pages/About.jsx";
 import Booking from "../src/Commponents/pages/Booking.jsx";
 import Service from "../src/Commponents/pages/Service.jsx";
+import ContactUs from '../src/Commponents/pages/ContactUs.jsx';
+import HotelPortfolio from '../src/Commponents/pages/HotelPortfolio.jsx';
+import Footer from '../src/Commponents/pages/Footer.jsx';
+
 
 
 function App() {
@@ -18,8 +22,12 @@ function App() {
             <>
             <Navbar/>
             <Hero/>
-            <About/>
+            <HotelPortfolio />
             <Service/>
+            <About/>
+            <ContactUs />
+            <Footer/>
+           
             {/* <Booking/> */}
             </>
 

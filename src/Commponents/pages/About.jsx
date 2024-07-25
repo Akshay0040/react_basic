@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import LazyLoad from 'react-lazyload';
 import "../assets/css/about.css";
 import img1 from "../assets/img/about img/pexels-andreaedavis-2873951.jpg";
 import img2 from "../assets/img/about img/pexels-leah-newhouse-50725-952586.jpg";
@@ -50,22 +51,34 @@ function About() {
         <div className='Image-section'>
           <Slider {...settings}>
             <div>
-              <img src={img1} alt="About Us" />
+              <LazyLoad height={200}>
+                <img src={img1} alt="About Us" />
+              </LazyLoad>
             </div>
             <div>
-              <img src={img2} alt="About Us" />
+              <LazyLoad height={200}>
+                <img src={img2} alt="About Us" />
+              </LazyLoad>
             </div>
             <div>
-              <img src={img3} alt="About Us" />
+              <LazyLoad height={200}>
+                <img src={img3} alt="About Us" />
+              </LazyLoad>
             </div>
             <div>
-              <img src={img4} alt="About Us" />
+              <LazyLoad height={200}>
+                <img src={img4} alt="About Us" />
+              </LazyLoad>
             </div>
             <div>
-              <img src={img5} alt="About Us" />
+              <LazyLoad height={200}>
+                <img src={img5} alt="About Us" />
+              </LazyLoad>
             </div>
             <div>
-              <img src={img6} alt="About Us" />
+              <LazyLoad height={200}>
+                <img src={img6} alt="About Us" />
+              </LazyLoad>
             </div>
           </Slider>
         </div>
