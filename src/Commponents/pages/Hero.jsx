@@ -9,7 +9,6 @@ function Hero() {
       <img src={hero} alt="Hero Background" className="hero-background" />
       <div className="hero-content">
         <h1>Welcome to Our Website</h1>
-        {/* <p>Discover amazing things with us!</p> */}
       </div>
       <div className="booking-section">
         <BookingEngine />
