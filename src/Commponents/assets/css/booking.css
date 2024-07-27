@@ -1,28 +1,29 @@
 .booking-engine {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 40px;
+  padding: 20px;
   background: linear-gradient(135deg, #2b44ac, #ff4500);
   color: white;
   border-radius: 10px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   text-align: left;
   max-width: 100%;
-  /* margin: auto; */
-  margin-top:100px
+  margin-top: 100px;
 }
 
 .booking-engine h2 {
-  flex: 1;
+  width: 100%;
   font-size: 24px;
   font-weight: bold;
-  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .booking-engine .form-group {
-  flex: 2;
-  margin-right: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .booking-engine label {
@@ -32,7 +33,7 @@
 }
 
 .booking-engine input {
-  width: calc(100% - 10px);
+  width: calc(100% - 20px);
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -46,7 +47,7 @@
 }
 
 .booking-engine button {
-  flex: 1;
+  width: 100%;
   background-color: #cbacac;
   color: #ff6347;
   padding: 12px 20px;
@@ -55,7 +56,6 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  margin-left: 20px;
 }
 
 .booking-engine button:hover {
@@ -74,4 +74,32 @@
   border-radius: 5px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+/* Responsive Styles */
+@media (min-width: 769px) {
+  .booking-engine {
+    flex-direction: row;
+    padding: 40px;
+  }
+
+  .booking-engine h2 {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .booking-engine .form-group {
+    flex: 2;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .booking-engine button {
+    flex: 1;
+    margin-left: 20px;
+    width: auto;
+  }
 }

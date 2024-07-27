@@ -1,7 +1,4 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css'; 
-import 'slick-carousel/slick/slick-theme.css';
 import "../assets/css/hotelportfolio.css";
 import hotel1 from '../assets/img/hotel img/pexels-asadphoto-1268855.jpg';
 import hotel2 from '../assets/img/hotel img/pexels-davidmcelwee-11661316.jpg';
@@ -44,14 +41,6 @@ const hotels = [
 ];
 
 const HotelPortfolio = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1
-  };
-
   return (
     <section className="hotel-portfolio">
       <div className="container">
